@@ -29,7 +29,8 @@ class weba extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //Nyimpen Data
+        return redirect('weba')->with('success','Data berhasil disimpan');
     }
 
     /**

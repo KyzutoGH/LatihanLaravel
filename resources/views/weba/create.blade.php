@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-  <form method="post" action="{{ url('coba') }}">
+  <form method="post" action="{{ url('weba') }}">
     @csrf
     Nama<br>
     <input type="text" name="nama" value="saiful"><br>

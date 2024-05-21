@@ -7,6 +7,7 @@
             {{ session()->get('success') }}  
         </div><br />
         @endif
+        {{ csrf_token() }}
     </br>
     ini index
     </body>
