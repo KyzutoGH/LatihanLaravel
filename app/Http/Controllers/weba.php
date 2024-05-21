@@ -11,7 +11,8 @@ class weba extends Controller
      */
     public function index()
     {
-        //
+        //Mlebu Index
+        return view('weba.index');
     }
 
     /**
@@ -19,7 +20,8 @@ class weba extends Controller
      */
     public function create()
     {
-        //
+        //Mlebu Halaman Create
+        return view('weba.create');
     }
 
     /**
